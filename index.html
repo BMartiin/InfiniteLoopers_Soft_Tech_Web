@@ -3,191 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Infinite loopers</title>
+    <title>Infinite Loopers – Projektterv</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header, footer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            margin-top: 30px;
+            color: #2c3e50;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+        }
+        table, th, td {
+            border: 1px solid #444;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    H1 – Projektterv
-Szoftverfejlesztési Projekt
-Csapat neve: Infinite Loopers
-Tantárgy: Szoftvertechnológia
-Oktató: Dr. Mileff Péter, Jlidi Ali
-September 23, 2025
+    <header>
+        <h1>Projektterv</h1>
+        <p><strong>Szoftverfejlesztési Projekt</strong><br>
+        Csapat neve: <strong>Infinite Loopers</strong><br>
+        Tantárgy: <strong>Szoftvertechnológia</strong><br>
+        Oktató: Dr. Mileff Péter, Jlidi Ali<br>
+        Dátum: 2025. szeptember 23.</p>
+    </header>
 
+    <main>
+        <h2>Tartalomjegyzék</h2>
+        <ol>
+            <li>Csapattagok és struktúra</li>
+            <li>Fejlesztési terv: Mérföldkövek és várt eredmények</li>
+            <li>Programozási nyelvek és fejlesztő eszközök</li>
+            <li>Tervezett módszerek és technikák</li>
+            <li>Tervezett dokumentumok és idővonal</li>
+            <li>Tesztelési követelmények</li>
+            <li>Bemutatás és leszállítás</li>
+            <li>Információs források</li>
+        </ol>
 
-Contents
-1 	Csapattagok és struktúra	2
-2 	Fejlesztési terv: Mérföldkövek és várt eredmények	2
-3 	Programozási nyelvek és fejlesztő eszközök	3
-4 	Tervezett módszerek és technikák	3
-5	 Tervezett dokumentumok és idővonal	4
-6 	Tesztelési követelmények	4
-7 	Bemutatás és leszállítás	5
-8 	Információs források	5
+        <h2>1. Csapattagok és struktúra</h2>
+        <table>
+            <tr><th>Név</th><th>Szerepkör</th><th>Felelősségek</th></tr>
+            <tr><td>Balogh Martin</td><td>Csapatvezető</td><td>Csapat koordinációja, motiváció</td></tr>
+            <tr><td>Takács Antal Levente</td><td>Fejlesztő</td><td>Kód ellenőrzés, fő game loop írása</td></tr>
+            <tr><td>Vizi Gergő</td><td>Dokumentáció felelős, tesztelő</td><td>Kommunikáció, dokumentáció készítés</td></tr>
+            <tr><td>Kriston-Széles Benedek</td><td>Tesztelő, Dokumentáció</td><td>Minőségbiztosítás, dokumentáció készítés</td></tr>
+            <tr><td>Tverdota Kristóf</td><td>Tesztelő, Fejlesztő</td><td>Kód ellenőrzés, fejlesztés</td></tr>
+        </table>
+        <p><strong>Csapatkommunikáció:</strong> Discord, Teams, Messenger, személyes meetingek</p>
 
+        <h2>2. Fejlesztési terv: Mérföldkövek és várt eredmények</h2>
+        <table>
+            <tr><th>Mérföldkő</th><th>Leszállítandó</th><th>Határidő</th></tr>
+            <tr><td>H1</td><td>Projektterv</td><td>2025.09.28</td></tr>
+            <tr><td>H2</td><td>Vízió dokumentum, Frissített projekt-terv, Munkanapló</td><td>2025.10.19</td></tr>
+            <tr><td>H3</td><td>SRS, Szótár, Felhasználói kézikönyv 1. verzió</td><td>2025.11.02</td></tr>
+            <tr><td>H4</td><td>Analízis modell, Rendszertervezési dokumentum</td><td>2025.11.23</td></tr>
+            <tr><td>H5</td><td>Prototípus implementáció, Tesztelési terv</td><td>2025.12.07</td></tr>
+        </table>
+        <p><em>Megjegyzés: Október 23-i hosszú hétvége miatt a csapat nem dolgozik.</em></p>
 
+        <h2>3. Programozási nyelvek és fejlesztő eszközök</h2>
+        <ul>
+            <li><strong>Programozási nyelvek:</strong> Python – kezdőbarát, a projekt nem kíván komplexebb nyelvet</li>
+            <li><strong>IDE:</strong> Visual Studio Code – könnyű, elegendő a projekthez</li>
+            <li><strong>Verziókezelő rendszer:</strong> GitHub</li>
+            <li><strong>Könyvtárak / frameworkök:</strong> Pygame – 2D platformerhez kiváló</li>
+        </ul>
 
+        <h2>4. Tervezett módszerek és technikák</h2>
+        <ul>
+            <li><strong>Fejlesztési módszertan:</strong> Iteratív és inkrementális, heti 1 meeting</li>
+            <li><strong>Tesztelési technikák:</strong> Manuális teszt, Exploratory, Playtesting, hibajegyzék, egyszerű unit tesztek</li>
+            <li><strong>Telepítési technikák:</strong> Csomagkezelő (pl. pacman, anaconda)</li>
+        </ul>
 
+        <h2>5. Tervezett dokumentumok és idővonal</h2>
+        <table>
+            <tr><th>Dokumentum</th><th>Felelős</th><th>Határidő</th></tr>
+            <tr><td>Vízió dokumentum</td><td>Balogh Martin</td><td>2025.10.19</td></tr>
+            <tr><td>Szoftverkövetelmény specifikáció (SRS)</td><td>Kriston-Széles Benedek</td><td>2025.11.02</td></tr>
+            <tr><td>Szótár</td><td>Vizi Gergő</td><td>2025.11.02</td></tr>
+            <tr><td>Analízis modell</td><td>Tverdota Kristóf</td><td>2025.11.23</td></tr>
+            <tr><td>Rendszertervezési dokumentum</td><td>Balogh Martin</td><td>2025.11.23</td></tr>
+            <tr><td>Felhasználói dokumentáció</td><td>Vizi Gergő</td><td>2025.11.02</td></tr>
+            <tr><td>Tesztelési terv</td><td>Takács Antal Levente</td><td>2025.12.07</td></tr>
+            <tr><td>Prototípus kód</td><td>Takács Antal Levente</td><td>2025.12.07</td></tr>
+        </table>
 
+        <h2>6. Tesztelési követelmények</h2>
+        <ul>
+            <li><strong>Tesztelés típusai:</strong> Unit, Integrációs, Rendszer, Manuális / Playtesting</li>
+            <li><strong>Eszközök:</strong> PyTest, unittest, Pygame debug üzenetek</li>
+            <li><strong>Minőségi mutatók:</strong> 60 FPS stabil futás, 85% feletti megbízhatóság</li>
+        </ul>
 
+        <h2>7. Bemutatás és leszállítás</h2>
+        <ul>
+            <li><strong>Bemutatás:</strong> Élő demó projektorral, tesztadatokkal</li>
+            <li><strong>Leszállítás:</strong> GitHub repo és telepíthető fájl</li>
+            <li><strong>Dátum:</strong> 14. hét – végső prezentáció</li>
+        </ul>
 
+        <h2>8. Információs források</h2>
+        <ul>
+            <li><a href="https://www.pygame.org/docs/">Pygame dokumentáció</a></li>
+            <li><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></li>
+            <li><a href="https://www.python.org/">Python dokumentáció</a></li>
+        </ul>
 
+        <h3>Jóváhagyás</h3>
+        <p>Csapatvezető aláírása: __________________________</p>
+        <p>Oktató aláírása: ________________________________</p>
+    </main>
 
-
-1. 	Csapattagok és struktúra
-
-
-Név
-Szerepkör
-Felelősségek
-Balogh Martin
-Csapatvezető
-Csapat koordinációja, motiváció
-Takács Antal Levente
-Fejlesztő
-Kód ellenőrzés és fő game loop írása
-Vizi Gergő
-Dokumentáció felelős, tesztelő
-Kommunikáció, dokumentáció készítés
-Kriston-Széles Benedek
-Tesztelő, Dokumentació
-Minőségbiztosítása, dokumentáció készítés
-Tverdota Kristóf
-Tesztelő, Fejlesztő
-Kód ellenőrzés, fejlesztés
-
-
-
-
-	Csapatkommunikáció: 
-Discord, Teams, Messenger, Személyes meeting
-
-
-2. 	Fejlesztési terv: Mérföldkövek és várt eredmények
-
-Mérföldkő
-Leszállítandó
-Határidő
-H1
-Projektterv
-2025.09.28
-H2
-Vízió dokumentum, Frissített projekt-terv, Munkanapló
-2025.10.19
-H3
-SRS, Szótár, Felhasználói kézikönyv első verziója
-2025.11.02
-H4
-Analízis modell, Rendszertervezési dokumentum
-2025.11.23
-H5
-Prototípus implementáció, Tesztelési terv
-2025.12.07
-
-
-
-Megjegyzések:
-Október 23-i hosszú hétvége miatt a csapat nem dolgozik.
-
-
-3. 	Programozási nyelvek és fejlesztő eszközök
-
-
-
-Programozási nyelvek
-Python - kezdő barát és a projekt ötletünk nem kíván komplexebb nyelvet
-
-
-IDE / Fejlesztői eszközök
-Visual Studio Code - lightweight code editor elegendő a projkethez
-
-
-Verziókezelő rendszer
-GitHub
-
-
-Framework-ök / Könyvtárak
-Pygame - 2d platformer játékhoz jelenlegi legjobb könyvtár amit pythonnal lehet használni
-4. 	Tervezett módszerek és technikák
-.
-Fejlesztési módszertan 
-Iteratív és inkrementális fejlesztés, heti minimum 1 meeting és feladatok kiértékelése.
-
-
-Tesztelési technikák
-Manual Testing, Exploratory testing, Playtesting,  hibajegyzék vezetése. Egyszerű unit tesztek modulokra.
-
-
-Telepítési technikák 
-Csomagkezelő telepítés (pacman vagy anaconda)
-
-
-
-5.	 Tervezett dokumentumok és idővonal
-
-Dokumentum
-Felelős csapattag
-Határidő
-Vízió dokumentum
-Balogh Martin
-2025.10.19
-Szoftverkövetelmény specifikáció (SRS)
-Kriston-Széles Benedek
-2025.11.02
-Szótár
-Vizi Gergő
-2025.11.02
-Analízis modell
-Tverdota Kristóf
-2025.11.23
-Rendszertervezési dokumentum
-Balogh Martin
-2025.11.23
-Felhasználói dokumentáció
-Vizi Gergő
-2025.11.02
-Tesztelési terv
-Takács Antal Levente
-2025.12.07
-Prototípus kód
-Takács Antal Levente
-2025.12.07
-
-
-6. 	Tesztelési követelmények
-
-Tesztelés típusai
-Unit tesztek, Integrációs tesztek, Rendszertesztek, Manual / playtesting
-Teszteléshez használt eszközök
-PyTest / unittest, Pygame beépített debug üzenetek
-Minőségi mutatók
-Konstans 60Fps, stabil futás, 85%
-
-
-7. 	Bemutatás és leszállítás
-
-Bemutatási mód
-Élő demó projektorral és tesztadatokkal a funkciók bemutatására
-Leszállítási mód
-A végterméket GitHub repó és telepíthető fájl formájában adjuk át.
-Tervezett dátum
-14. hét – végső prezentáció napja.
-
-
-
-8. 	Információs források
-
-
-
-Pygame dokumentáció https://www.pygame.org/docs/
-GeeksforGeeks https://www.geeksforgeeks.org/
-Python dokumentáció https://www.python.org/
-
-
-Jóváhagyás
-
-Csapatvezető aláírása:
-Oktató aláírása:
-
-    
+    <footer>
+        <p>&copy; 2025 Infinite Loopers</p>
+    </footer>
 </body>
 </html>
